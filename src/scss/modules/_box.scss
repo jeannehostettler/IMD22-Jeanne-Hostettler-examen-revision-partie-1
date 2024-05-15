@@ -4,6 +4,13 @@
   padding: 20px;
 }
 
+.box-3 {
+  border: 1px solid #0d47a1;
+  background: #42a5f5;
+  padding: 20px;
+  width: 25%;
+}
+
 .box-container {
   display: flex;
   justify-content: center;
@@ -17,5 +24,5 @@
 
 .box-container-3 {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
